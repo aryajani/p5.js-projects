@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="graphics/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="graphics/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="graphics/favicon/favicon-16x16.png">
+    <link rel="manifest" href="graphics/favicon/site.webmanifest">
+    <style>
+        @font-face {
+            font-family: arcadeHacked;
+            src: url('HACKED.ttf');
+        }
+    </style>
+</head>
+<body style="color: white; background-image: url('graphics/arcade-background.jpg'); font-family: arcadeHacked;">
+    <center>
+        <h1 style="font-size: 64px;">
+            <div id="titleField">ARCADE</div>
+        </h1>
+        <div id="canvasArea">
+        </div>
+        <h2 id='footerField'>
+            <a href="javascript:void(0);" onclick="toggleHiddenText();">Created by CPE 123-03 Group 5</a>
+            
+        </h2>
+        <div id='hiddenArea' style="display: none; font-size: 32px;">
+            Group 5: Team Members: <br>
+            <div style="font-size: 24px;">
+                Arya Jani <br>
+                Brennan Widjaja <br>
+                Samay Gupta <br>
+                Shashank Acharya <br>
+                <br>
+            </div>
+        </div>
+    </center>
+    <script type="text/javascript" src="libraries/p5.min.js"></script>
+    <script type="text/javascript" src="libraries/p5.collide2d.min.js"></script>
+    <script type="text/javascript" src="pong.js"></script>
+    <script type="text/javascript" src="snake.js"></script>
+    <script type="text/javascript" src="pac-man.js"></script>
+    <script type="text/javascript" src="dino.js"></script>
+    <script type="text/javascript" src="flappy-bird.js"></script>
+    <script type="text/javascript" src="catch-it.js"></script>
+    <script type="text/javascript" src="arcade.js"></script>
+</body>
+</html>
